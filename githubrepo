@@ -1,0 +1,9 @@
+TASK 1: GitHub fork metadata
+Command:
+curl -s https://api.github.com/repos/YOUR_GITHUB_USERNAME/expressBookReview
+
+PASTE THE ACTUAL JSON OUTPUT HERE after creating a fork of:
+ibm-developer-skills-network/expressBookReview
+
+The output must show "fork": true and parent.full_name equal to
+"ibm-developer-skills-network/expressBookReview".

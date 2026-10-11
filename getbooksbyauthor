@@ -1,0 +1,11 @@
+Task 4: Retrieve books by author
+
+Command:
+```powershell
+curl.exe -s http://localhost:5000/books/author/Homer
+```
+
+Output:
+```json
+[{"isbn":"978-0140449136","title":"The Odyssey","author":"Homer","reviews":{}}]
+```

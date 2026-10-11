@@ -1,0 +1,11 @@
+Task 2: Retrieve all books
+
+Command:
+```powershell
+curl.exe -s http://localhost:5000/books
+```
+
+Output:
+```json
+[{"isbn":"978-0140449136","title":"The Odyssey","author":"Homer","reviews":{}},{"isbn":"978-0061120084","title":"To Kill a Mockingbird","author":"Harper Lee","reviews":{}},{"isbn":"978-0743273565","title":"The Great Gatsby","author":"F. Scott Fitzgerald","reviews":{}},{"isbn":"978-0451524935","title":"1984","author":"George Orwell","reviews":{}}]
+```

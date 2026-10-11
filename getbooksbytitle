@@ -1,0 +1,11 @@
+Task 5: Retrieve books by title
+
+Command:
+```powershell
+curl.exe -s http://localhost:5000/books/title/Odyssey
+```
+
+Output:
+```json
+[{"isbn":"978-0140449136","title":"The Odyssey","author":"Homer","reviews":{}}]
+```

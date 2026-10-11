@@ -1,0 +1,11 @@
+Task 6: Retrieve the initial book review
+
+Command:
+```powershell
+curl.exe -s http://localhost:5000/books/review/978-0140449136
+```
+
+Output:
+```json
+{}
+```

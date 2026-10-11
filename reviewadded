@@ -1,0 +1,13 @@
+Task 9: Add or update a book review
+
+Command:
+```powershell
+$body = @{ review = "A thoughtful and engaging classic." } | ConvertTo-Json -Compress; Invoke-RestMethod -Uri "http://localhost:5000/customer/auth/review/978-0140449136" -Method Put -ContentType "application/json" -Headers @{ Authorization = "Bearer session-meenal" } -Body $body
+```
+
+Output:
+```text
+message                              isbn           reviews
+-------                              ----           -------
+Review added or updated successfully 978-0140449136 @{meenal=A thoughtful and eng...
+```

@@ -1,0 +1,11 @@
+Task 3: Retrieve a book by ISBN
+
+Command:
+```powershell
+curl.exe -s http://localhost:5000/books/isbn/978-0140449136
+```
+
+Output:
+```json
+{"isbn":"978-0140449136","title":"The Odyssey","author":"Homer","reviews":{}}
+```

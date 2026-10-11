@@ -1,0 +1,13 @@
+Task 7: Register a new user
+
+Command:
+```powershell
+$body = @{ username = "meenal"; password = "test123" } | ConvertTo-Json -Compress; Invoke-RestMethod -Uri "http://localhost:5000/register" -Method Post -ContentType "application/json" -Body $body
+```
+
+Output:
+```text
+message                      username
+-------                      --------
+User registered successfully meenal
+```

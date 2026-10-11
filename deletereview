@@ -1,0 +1,13 @@
+Task 10: Delete a book review
+
+Command:
+```powershell
+Invoke-RestMethod -Uri "http://localhost:5000/customer/auth/review/978-0140449136" -Method Delete -Headers @{ Authorization = "Bearer session-meenal" }
+```
+
+Output:
+```text
+message                     reviews
+-------                     -------
+Review deleted successfully
+```
